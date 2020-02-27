@@ -18,4 +18,18 @@ function findTheSame(arr1,arr2) {
    return storeg 
 }
 
-document.write (findTheSame(array1,array2))
+document.write (findTheSame(array1,array2)+'<br>')
+
+// andere Methode
+
+
+function findTheSame2 (ar1,ar2) {
+    let lager =[]
+    ar1.forEach(item => { if (ar2.indexOf(item) !==-1 && lager.indexOf(item)==-1)
+       { lager.push(item)}
+        
+    });
+    return lager
+    
+}
+document.write (findTheSame2(array1,array2))
