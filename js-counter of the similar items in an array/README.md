@@ -1,0 +1,1 @@
+at the first  this function checked if the number exist in an Array after that it count how much is repeatedusing (for loop) and (forEach)
