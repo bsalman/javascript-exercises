@@ -1,0 +1,1 @@
+time counter using (setInterval) time method
