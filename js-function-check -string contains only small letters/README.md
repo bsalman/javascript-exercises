@@ -1,0 +1,1 @@
+a JavaScript function to check whether a given string contains only small letters

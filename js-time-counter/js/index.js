@@ -18,7 +18,7 @@ setInterval(()=>{
 
    
     // write 
-}, 1000)
+}, 10)
 
 function formater(hrs, mins, scs) {
     let result = ''
