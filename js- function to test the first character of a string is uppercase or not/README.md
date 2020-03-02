@@ -1,0 +1,1 @@
+a JavaScript function to test the first character of a string is uppercase or not
