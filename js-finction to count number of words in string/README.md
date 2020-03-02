@@ -1,0 +1,1 @@
+finction to count number of words in string
