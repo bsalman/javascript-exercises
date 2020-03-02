@@ -1,0 +1,1 @@
+JavaScript function to find the number of sorted pairs formed by its elements of a given array
