@@ -2,21 +2,24 @@ window.onload=()=>{
 let proNamInput = document.querySelector(".product>div:nth-child(1)>input")
 let proPricInput =document.querySelector(".product>div:nth-child(2)>input")
 let quantityInput = document.querySelector(".product>div:nth-child(3)>inpt")
-let totalSpan=document.querySelector(".document>div:nth-child(4)>span")
-
-
-
-
-
-
-
+proNamInput.addEventListener('keyup',function (e) {
+    if (e.which ==13){
+        proPricInput.focus()
+    }
+})
+// let totalSpan=document.querySelector(".document>div:nth-child(4)>span")
 let newProductA =document.querySelector("#newProduct")
-console.log(newProductA);
-
 newProductA.addEventListener('click',function (e) {
     e.preventDefault()
-    creatNewProduct()})
-
+    creatNewProduct()
+})
+}
+function setEvent(eventName,triggerElement,priceElement,quantityElement,result) {
+    triggerElement.addEventListener(eventName,function (e) {
+   let price= parseFloat(priceElement.value)
+   let howMany= parseFloat(quantityElement.value)
+   result.innerText =(price*howMany)+'  Euro'
+    })  
 }
 function creatNewProduct() {
     
