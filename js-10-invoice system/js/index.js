@@ -28,7 +28,7 @@ function setEvent(eventName,triggerElement,priceElement,quantityElement,result,e
    let price= parseFloat(priceElement.value)
    let howMany= parseFloat(quantityElement.value)
    result.innerText =(price*howMany)+'  Euro'
-    })  
+
     // to add alle the total spans value in one final result
     // wir müssen ein Array von alle spans definieren dann machen wir for loop or forEach um die Ergebnisse zu  addieren und '   Euro' zu löschen    
     let spanArr = document.querySelectorAll('.product>div>span') 
@@ -49,9 +49,19 @@ function setEvent(eventName,triggerElement,priceElement,quantityElement,result,e
  }
  //um  die mauszeiger von  aktuellen input zu dem Nächsten bewegen
  if (elmentType =='quantity'&& eventName=='keyup'){
+     if (e.which==13){
+         
+     }
 
  }
 // .trim()  Remove whitespace from both sides of a string:
+
+
+
+
+
+    })  
+   
 
 
 }

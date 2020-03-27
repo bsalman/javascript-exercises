@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.controlContainer{
+    display: flex;
+    flex-direction: column; 
+}
+.imgContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgContainer img{
+    float: left;
+    margin: 5px;
+    
+}
+.pageBtns{
+    display: flex;
+    flex-direction: column; 
+}
